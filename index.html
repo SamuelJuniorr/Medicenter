@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MediCenter</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">window.onload = function(){document.querySelector(".menumobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none' ; 
+        }else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+        }
+    });
+    };
+    
+    </script>
 </head>
 <body>
   <header>
@@ -15,6 +25,11 @@
           </div>
           <div class="menu">
               <nav>
+                  <div class="menumobile">
+                    <div class="mmline">.</div>
+                    <div class="mmline">.</div>
+                    <div class="mmline">.</div>
+                  </div>
                   <ul>
                       <li class="active"> <a href="">HOME</a></li>
                       <li> <a href="">CONSULTAS</a></li>
@@ -197,7 +212,10 @@
                 </div>
             </div>
 
-            <div class="footer-copy">Copyright - Todos os direitos reservados</div>
+            <div class="footer-copy">
+                <div>Coded By <a href="https://github.com/SamuelJuniorr" target="_blank">Samuel Jr</a></div>
+                <div>Copyright - Todos os direitos reservados</div>
+            </div>
         </footer>
       </div>
 </body>
