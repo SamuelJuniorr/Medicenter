@@ -129,10 +129,12 @@ nav .active a, nav a:hover{
 }
 
 .banner-desc{
+    height: 45px;
     font-size: 15px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .banner-options a{
     display: inline-block;
     border: 2px solid white;
